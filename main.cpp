@@ -70,7 +70,7 @@ int main() {
         return 1;
     }
 
-    // Check if the frequency difference exceeds 50 Hz or exit with an error message
+    // Check that frequency difference is within bandwidth of SDR
     if (std::abs(cellTowerFrequency - deviceFrequency) > 50) {
         std::cout << "Searching for device..." << std::endl;
         for (int i = 0; i < 10; ++i) {
