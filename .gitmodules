@@ -1,3 +1,6 @@
 [submodule "external/sigover"]
 	path = external/sigover
 	url = https://github.com/SysSec-KAIST/sigover_injector.git
+[submodule "external/sigover_gen_sample"]
+	path = external/sigover_gen_sample
+	url = https://github.com/SysSec-KAIST/sigover_gen_sample.git
