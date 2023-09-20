@@ -167,6 +167,3 @@ Our current configuration contains the following:
     By combining the functionality of the Correlation Block and the PCI Decoder Block, we can synchronize with the LTE signal, detect the presence and timing of the PSS, and determine the transmitting cell based on the PCI value.
     
     These blocks, along with the other blocks in the flowgraph, work together to achieve the goal of the PoC by extracting the IMSI and CellID from the received LTE signals.
-
-## 7. Some interesting asides and helpful notes:
-- [How to open md file preview on vscode?](https://www.jasongaylord.com/blog/2021/09/27/preview-markdown-visual-studio-code)
