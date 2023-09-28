@@ -16,7 +16,7 @@ Version: 27 September 2023
 ## 0. Iterations 
 ## Iter 0: POC
 - Essentially do what [sniffdemo](https://github.com/apex-jpg/activsniff) does but: 
-    - comb through the [SigOver](https://github.com/SysSec-KAIST/sigover_injector) and [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer) codebase to understand how they utilise [srsRAN](https://github.com/srsran/srsRAN_4G) and [FALCOON](https://github.com/falkenber9/falcon) to connect with and receive signals that are received by the SDR (bladeRF).
+    - comb through the [SigOver](https://github.com/SysSec-KAIST/sigover_injector) and [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer) codebase to understand how they utilise [srsRAN](https://github.com/srsran/srsRAN_4G) and [FALCON](https://github.com/falkenber9/falcon) to connect with and receive signals that are received by the SDR (bladeRF).
     - implement mechanism described in *Connecting bladeRF with GPSDO*.
     - use [SigOver](https://github.com/SysSec-KAIST/sigover_injector) signal overshadowing attack algorithm to transmit a signal (more on this in below section) overlapping a portion of the signal transmitted by a cell tower that will request the mobile device to share identification information (IMSI) \- this mechanism is also called *paging request*.
     - use [LTESniffer](https://github.com/SysSec-KAIST/LTESniffer) framework (*see 1.5*) to do the signal capturing and processing. 
